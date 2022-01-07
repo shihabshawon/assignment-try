@@ -11,7 +11,8 @@ section{
     display: flex;
 }
 .half-width{
-    width: 50%;
+    width: 5
+    0%;
 
 }
 .half-width img{
@@ -23,4 +24,65 @@ section{
     padding:10px 40px;
     border-radius: 5px;
     color: white;
+}
+#first{
+    background-color: rgb(181, 233, 174);
+
+}
+.main img{
+    width:70%;
+}
+#second{
+background-color: rgb(128, 223, 174);
+}
+#last{
+background-color: rgb(152, 240, 186);
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+footer{
+    background-color:rgb(136, 218, 160);
+    text-align: center;
+}
+.form-style{
+    padding: 5px;
+    font-size: 17px;
+    border-width: 1px;
+    border-color: transparent;
+    background-color: transparent;
+    color: #000000;
+    border-style: solid;
+    border-radius: 34px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);    
+}
+form{
+   
+    font-weight: 1000;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-image: linear-gradient( rgb(174, 224, 224), rgb(209, 219, 161));
+    border-radius: 10px;
+    display: block;
+    box-shadow: 5px 15px 20px gray;   
+}
+.form label{
+    padding-left: 10%;
+    padding-top: 20px;
+}
+.btn{
+    color: #ebc7c3;
+	font-size: 17px;
+	border-radius: 25px;
+	border: 0px #3866a3 solid;
+	padding: 10px 16px;
+	background: linear-gradient(180deg, hsl(185, 13%, 68%) 10%, #75858f 100%);
+	box-shadow: -1px 4px 2px  #767a7e;
+	align-items: center;
+    margin-left: 20px;  
 }
